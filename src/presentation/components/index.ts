@@ -1,3 +1,5 @@
+export { GptOrthographyMessage } from "./chat-bubbles/GptOrthographyMessage";
+
 export { TextMessageBoxSelect } from "./chat-input-boxes/TextMessageBoxSelect";
 
 export { TextMessageBoxFile } from "./chat-input-boxes/TextMessageBoxFile";

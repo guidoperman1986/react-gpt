@@ -21,8 +21,6 @@ export const TextMessageBoxFile = ({
   const handleSendMessage = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
 
-    console.log("handle");
-
     if (message.trim().length === 0) return;
     onSendMessage(message);
     setMessage("");
